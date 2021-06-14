@@ -1,0 +1,14 @@
+$primary-color: #056094;
+.wrapper {
+    background-color: $primary-color;
+    margin: 0 auto;
+    color: #fff;
+    padding: 20px 10px;
+    margin-top: 20px;
+    display: flex;
+    div {
+        padding: 10px;
+        flex: 1;
+        text-align: left;
+    }
+}

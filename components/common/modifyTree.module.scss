@@ -1,0 +1,32 @@
+.wrapper {
+  width: 100%;
+  :global {
+    .ant-tree-node-content-wrapper {
+      width: 100%;
+      position: relative;
+    }
+    .ant-tree-treenode {
+      width: 100%;
+    }
+  }
+}
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin: 10px 0px;
+  box-sizing: border-box;
+  transition: all 0.5 ease-in-out;
+  div {
+    width: fit-content;
+  }
+}
+.title {
+  text-align: left;
+  margin-right: 20px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}

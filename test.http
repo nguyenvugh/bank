@@ -1,0 +1,11 @@
+POST http://localhost:3000/api/login HTTP/1.1
+content-type: application/json
+
+{
+    "username": "admin",
+    "password": "admin"
+}
+
+DELETE http://localhost:3000/api/menus?menuId="60b0c6adf2c6483fa82ca9fb" HTTP/1.1
+content-type: application/json
+token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MGIwYTdjZjljNWFjODMzYWE4MDQ2ZjQiLCJpYXQiOjE2MjIyMTQzMTB9.AryboLjNso8ZHkpEqHSVotRouffzOJu48_iUkf2hQdk"
