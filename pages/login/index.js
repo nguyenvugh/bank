@@ -26,7 +26,7 @@ const Login = () => {
 
   return (
     <Card
-      title={isRegister ? "Đăng ký" : "Đăng nhập"}
+      title={isRegister ? "Đăng ký1" : "Đăng nhập"}
       extra={
         <div
           onClick={() => setIsRegister(!isRegister)}
