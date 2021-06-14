@@ -35,7 +35,7 @@ const Login = () => {
             cursor: "pointer",
             userSelect: "none",
           }}>
-          {isRegister ? "Đăng nhập" : "Đăng ký"}
+          {isRegister ? "Đăng nhập1" : "Đăng ký"}
         </div>
       }
       style={{
